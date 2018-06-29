@@ -39,6 +39,8 @@ import { keys, sortBy, filter, values, mapValues, pick, map, zipObject, compact,
 // register component to use
 Vue.component('chart', ECharts)
 
+//TODO: Add new graph, and fix auth
+
 export default {
   data: function () {
     let data = []
