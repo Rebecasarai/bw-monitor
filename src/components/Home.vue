@@ -40,7 +40,7 @@ import { keys, sortBy, filter, values, mapValues, pick, map, zipObject, compact,
 Vue.component('chart', ECharts)
 
 //TODO: Add new graph, and fix auth
-
+// Create (Maybe) firebase cloud function to check and trigger a confirmation from me to let a new user to be admin
 export default {
   data: function () {
     let data = []
